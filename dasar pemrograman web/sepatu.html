@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body bgcolor="blue">
+	<p align="center">
+<table>
+<form action="proses2.php" target="konten" method="post">
+	<tr>
+		<td width="25%">Nama</td>
+		<td><input type="text" name="nama" placeholder="Username"></td>
+	</tr>
+	<tr>
+		<td width="25%">Jenis Kelamin</td>
+		<td><input type="radio" name="jeniskelamin" value="p" checked>Perempuan</td>
+		<td><input type="radio" name="jeniskelamin" value="l" checked>Laki-Laki</td>
+	</tr>
+	<tr>
+		<td width="25%">Alamat</td>
+		<td><textarea cols="15" rows="3"></textarea></td>
+	</tr>
+	<tr>
+		<td width="25%">Propinsi</td>
+		<td><select name="propinsi">
+		<option value="jawa_tengah" name="tengah">Jawa Tengah</option>
+		<option value="jawa_timur" name="timur">Jawa Timur</option>
+		<option value="jawa_barat" name="barat">Jawa Barat</option>
+		<option value="bekasi" name="bekasi">Bekasi</option>
+		<option value="DKI_Jakarta" name="Jakarta">Jakarta</option>
+		<option value="DIY" name="DIY">DIY</option>
+		<option value="Diluar_jawa" name="luar">DIY</option>
+	</select></td>
+	</tr>
+	<tr>
+		<td width="25%">TTL</td>
+		<td><input type="date" name="tanggal"></td>
+	</tr>
+	<tr>
+		<td width="25%">Email</td>
+		<td><input type="text" name="email"></td>
+	</tr>
+	<tr>
+		<td width="25%">Username</td>
+		<td><input type="text" name="user"></td>
+	</tr>
+	<td width="25%">Password</td>
+		<td><input type="password" name="pass"></td>
+
+	<tr>
+	<td></td>
+	<td colspan="2"><input type="submit" name="btn_simpan" value="Submit"><input type="reset" name="btn_reset" value="RESET"></td>
+	</tr>
+</form>
+<tr>
+<td colspan="2" align="center"><a target="menu2" href="menu2.php">Back</a></td>
+</tr>
+</table>
+</p>
+</body>
+</html>
